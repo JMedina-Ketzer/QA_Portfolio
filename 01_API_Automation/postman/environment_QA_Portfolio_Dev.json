@@ -1,0 +1,15 @@
+{
+	"id": "d51d117a-b5ca-48d0-8bd6-d0b3adc10831",
+	"name": "QA_Portfolio_Dev",
+	"values": [
+		{
+			"key": "base_url",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2025-10-24T11:35:36.798Z",
+	"_postman_exported_using": "Postman/11.68.5"
+}
