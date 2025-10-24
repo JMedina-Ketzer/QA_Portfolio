@@ -1,0 +1,148 @@
+{
+	"id": "f658845a-c63b-468e-a384-53b9b5adfe39",
+	"name": "QA_Automation_Portfolio",
+	"timestamp": "2025-10-24T09:32:54.248Z",
+	"collection_id": "43025090-b548b712-4afa-451d-aa9a-fc042474ec8f",
+	"folder_id": "43025090-f7887aa7-3a98-4803-9d20-3bbe616fcdfd",
+	"environment_id": "43025090-d51d117a-b5ca-48d0-8bd6-d0b3adc10831",
+	"totalPass": 21,
+	"delay": "100",
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-10-24T09:32:50.474Z",
+	"totalFail": 5,
+	"results": [
+		{
+			"id": "148d24bc-cffe-4cb6-8937-98e130aa089a",
+			"name": "Basic_CRUD_Operations",
+			"url": "https://jsonplaceholder.typicode.com/posts",
+			"time": 144,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status should be 201 for scenario: xss_attempt": true,
+				"Response should have id when successful": true,
+				"Response should match request structure": true
+			},
+			"testPassFailCounts": {
+				"Status should be 201 for scenario: valid_post": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response should have id when successful": {
+					"pass": 8,
+					"fail": 0
+				},
+				"Response should match request structure": {
+					"pass": 8,
+					"fail": 0
+				},
+				"Status should be 400 for scenario: missing_userId": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Error response should have meaningful structure": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Status should be 400 for scenario: empty_title": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Status should be 201 for scenario: minimal_title": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be 400 for scenario: long_title": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Status should be 404 for scenario: non_existent_user": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Status should be 201 for scenario: special_chars_title": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be 201 for scenario: numeric_title": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be 201 for scenario: xss_attempt": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				309,
+				144,
+				154,
+				141,
+				144,
+				138,
+				141,
+				140,
+				144
+			],
+			"allTests": [
+				{
+					"Status should be 201 for scenario: valid_post": true,
+					"Response should have id when successful": true,
+					"Response should match request structure": true
+				},
+				{
+					"Status should be 400 for scenario: missing_userId": false,
+					"Error response should have meaningful structure": false
+				},
+				{
+					"Status should be 400 for scenario: empty_title": false,
+					"Response should have id when successful": true,
+					"Response should match request structure": true
+				},
+				{
+					"Status should be 201 for scenario: minimal_title": true,
+					"Response should have id when successful": true,
+					"Response should match request structure": true
+				},
+				{
+					"Status should be 400 for scenario: long_title": false,
+					"Response should have id when successful": true,
+					"Response should match request structure": true
+				},
+				{
+					"Status should be 404 for scenario: non_existent_user": false,
+					"Response should have id when successful": true,
+					"Response should match request structure": true
+				},
+				{
+					"Status should be 201 for scenario: special_chars_title": true,
+					"Response should have id when successful": true,
+					"Response should match request structure": true
+				},
+				{
+					"Status should be 201 for scenario: numeric_title": true,
+					"Response should have id when successful": true,
+					"Response should match request structure": true
+				},
+				{
+					"Status should be 201 for scenario: xss_attempt": true,
+					"Response should have id when successful": true,
+					"Response should match request structure": true
+				}
+			]
+		}
+	],
+	"count": 9,
+	"totalTime": 1455,
+	"collection": {
+		"requests": [
+			{
+				"id": "148d24bc-cffe-4cb6-8937-98e130aa089a",
+				"method": "POST"
+			}
+		]
+	}
+}
