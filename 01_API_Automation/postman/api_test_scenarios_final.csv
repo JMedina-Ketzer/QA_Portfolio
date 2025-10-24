@@ -1,0 +1,10 @@
+test_scenario,userId,title,body,expected_status
+valid_post,1,"API Automation Test","This is a valid test post body",201
+missing_userId,,"Post without user","Should fail without userId",400
+empty_title,1,"","Post with empty title field",400
+minimal_title,1,"A","Post with minimum title length",201
+long_title,1,"This is a very long title that exceeds normal limits and should be validated by the API for boundary conditions","Testing boundary validation",400
+non_existent_user,999,"Non-existent user","Testing with user that doesn't exist",404
+special_chars_title,1,"Title with spécial chäráctérs","Testing internationalization",201
+numeric_title,1,"12345","Testing with numeric title",201
+xss_attempt,1,"<script>alert('xss')</script>","Testing security validation",201
