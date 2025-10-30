@@ -1,0 +1,19 @@
+{
+  "name": "web-automation-cypress",
+  "version": "1.0.0",
+  "description": "Professional web automation testing with Cypress",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run-chrome": "cypress run --browser chrome"
+  },
+  "devDependencies": {
+    "cypress": "^13.6.0"
+  },
+  "keywords": [
+    "cypress",
+    "e2e-testing",
+    "qa-automation",
+    "javascript"
+  ]
+}
