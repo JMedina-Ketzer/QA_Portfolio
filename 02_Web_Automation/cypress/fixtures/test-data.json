@@ -1,0 +1,19 @@
+{
+  "users": {
+    "standard": {
+      "username": "test_user",
+      "password": "test_password"
+    },
+    "admin": {
+      "username": "admin_user",
+      "password": "admin_password"
+    }
+  },
+  "forms": {
+    "contact": {
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "message": "This is a test message"
+    }
+  }
+}
