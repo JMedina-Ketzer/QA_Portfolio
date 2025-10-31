@@ -1,60 +1,68 @@
-# QA Portfolio: Automated Testing Projects
+# QA Automation Portfolio �
 
 ## Overview
-This repository serves as a portfolio showcasing my skills in Quality Assurance (QA) and test automation, with focus on real-world scenarios and employability in the Portuguese market. It contains practical testing frameworks and automated tests developed with professional methodologies.
+Professional portfolio showcasing Quality Assurance and test automation skills, specifically optimized for the Portuguese market. Features real-world testing frameworks and automated solutions built with industry-standard methodologies.
 
-## Technologies Covered
-- **API Testing:** Postman (Manual & Automated Flows, Data-Driven Testing, Environment Variables)
-- **End-to-End (E2E) Testing:** Cypress
+## Technical Stack
+
+### **Test Automation**
+- **API Testing:** Postman + Data-Driven Testing + Environment Variables
+- **Web Testing:** Cypress + Custom Commands + Centralized Selectors
 - **Version Control:** Git & GitHub
-- **Testing Methodologies:** Data-Driven Testing, Negative Testing, Boundary Testing
 
-## Process & Project Management
-Demonstrated ability to manage testing workflows and sprint processes using industry-standard tools:
-- **Trello:** Used for simulating Scrum/Agile sprint cycles, including backlog management, task prioritization, and progress tracking (similar to JIRA/Azure DevOps concepts).
+### **Methodologies & Practices**
+- Data-Driven Testing
+- Negative & Boundary Testing  
+- Environment Management
+- Agile Testing (Trello-based workflow simulation)
 
-## Projects
+## Featured Projects
 
-### API Automation with Postman
-- **Data-Driven Testing:** 9 test scenarios covering happy path, negative testing, edge cases, and security validation
-- **Environment Management:** Multi-environment configuration (Dev/Production ready)
-- **Automated Test Execution:** Collection Runner with CSV data files
-- **Professional Results:** 21/26 tests passing with detailed analysis of API limitations
-- **Key Learnings:** Real-world validation requirements vs API fake constraints
+### [API Automation with Postman](./01_API_Automation/)
+**Complete API testing framework with professional automation:**
+-  **9 data-driven test scenarios** covering happy path, edge cases, and security
+-  **Multi-environment configuration** (Dev/Production ready)
+-  **Collection Runner automation** with CSV data files
+-  **Professional reporting** with 21/26 tests passing
+-  **Real-world analysis** of API limitations and validation requirements
 
-### Web Automation with Cypress
-- **E2E Testing:** Foundational test scripts and setup for web application testing
-- **Professional Structure:** Ready for expansion with additional test scenarios
+### [Web Automation with Cypress](./02_Web_Automation/)
+**End-to-end testing framework with professional structure:**
+-  **5 test suites** covering navigation, forms, assertions, API testing, and visual validation
+-  **Custom commands** and centralized selectors for maintainable tests
+-  **Professional configuration** ready for CI/CD integration
+-  **Real debugging experience** with dynamic element handling
+-  **Scalable architecture** for test expansion
 
 ## Technical Achievements
+
+### **API Testing Excellence**
 - Implemented data-driven testing strategies with external test data
 - Configured environment variables for multi-stage testing
 - Developed comprehensive negative testing scenarios
 - Documented API limitations and testing workarounds
-- Established professional test structure and reporting
+
+### **Web Automation Proficiency**
+- Built maintainable test structure with custom commands
+- Implemented centralized selector strategy for test stability
+- Established professional configuration and reporting
+- Demonstrated real-world debugging and problem-solving
 
 ## Professional Skills Demonstrated
-- API Test Automation with Postman
-- Data-Driven Testing Strategies  
-- Environment Configuration Management
-- Test Results Analysis and Reporting
-- Understanding of Real-World Validation Requirements
-- Agile Testing Methodologies
 
-## Portfolio Structure
-QA_Portfolio/
-├── 01_API_Automation/
-│ ├── Postman collection with CRUD operations
-│ ├── Environment configuration
-│ ├── Data-driven test scenarios (CSV)
-│ └── Test results with detailed analysis
-└── 02_Web_Automation/
-└── Cypress test framework
+- **API Test Automation** with Postman
+- **Web Test Automation** with Cypress  
+- **Data-Driven Testing Strategies**
+- **Environment Configuration Management**
+- **Test Results Analysis & Reporting**
+- **Agile Testing Methodologies**
+- **Real-World Validation Understanding**
 
 ## Contact
+
 - **Email:** joseotavio@ketzer.com.br
 - **Phone:** +351 936326798
-- **GitHub:** JMedina-Ketzer
+- **GitHub:** [JMedina-Ketzer](https://github.com/JMedina-Ketzer)
 
 ---
 
