@@ -1,4 +1,4 @@
-# QA Automation Portfolio �
+# QA Automation Portfolio 
 
 ## Overview
 Professional portfolio showcasing Quality Assurance and test automation skills, specifically optimized for the Portuguese market. Features real-world testing frameworks and automated solutions built with industry-standard methodologies.
